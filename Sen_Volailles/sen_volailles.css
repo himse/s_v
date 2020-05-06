@@ -1,0 +1,407 @@
+body{
+	font-family: 'source code pro', Caibri; 
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 100%;
+	/*background-image: url("image_s_v/poulets-entasses-industrie-senegal.jpg");*/
+}
+/*header{
+	border: 2px solid black;
+	background-color: #7829BB;
+	position:fixed;
+	top:0px;
+	left:0%;
+	height:77px;
+	width:100%;
+}
+*/
+.sen_volailles{
+	position: absolute;
+	top: 0px;
+	font-size: 200%;
+	margin-top: 10px;
+	color: white;
+	}
+	
+.separateur{
+	color: #7829BB;
+
+}
+
+.logo{
+	position: absolute;
+	height: 35%;
+	width:20%;
+	right: 0%;
+	border:4px solid #7829BB;
+}
+
+.bienvenue{
+	font-size:120%;
+}
+
+.remarque{
+	font-size: 120%;
+	color:red;
+	margin-bottom: 0px;
+}
+/*footer de la page*/
+ .footer_pc{
+ 	background-color:  #9B9B9B;
+ 	width: 400px;
+ 	position: absolute;
+ 	left: 70%;
+ 	top: 90%;
+ 	margin-top: 0px;
+ }
+ .c_facebook, .c_instangram, .c_whatsapp{
+ 	height: 30px;
+ }
+.diapo{
+	border: 4px solid #7829BB;
+}
+
+.planifier_commande2{
+	border: 4px solid #7829BB;
+	width: 250px;
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	border-radius: 5px;
+}
+.lien_planifier_commande{
+	color: white;
+	font-size: 150%;
+	background-color: #7829BB;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.contacter_nous_direct_pc{
+	border: 4px solid #7829BB;
+	width: 250px;
+	position: absolute;
+	left: 60%;
+	top: 50%;
+	border-radius: 5px;
+}
+.lien_contacter_nous_direct{
+	color: white;
+	font-size: 150%;
+	background-color: #7829BB;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+div a{
+	color: white;
+	text-decoration: none;
+}
+/*menue dérolant et resposive*/
+
+nav{
+	width: 100%;
+	background-color: #7829BB;
+}
+
+.div_menu{
+	margin: 0 auto;
+
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav li{
+	list-style-type:none;
+	float: left;
+
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: white;
+}
+
+.accueille:hover{
+	border-top: 5px solid #00FBFF;
+	background-color: rgba(220,112, 192, 0.15);
+}
+.menu_planifier:hover{
+	border-top: 5px solid #00FBFF;
+	background-color: rgba(220,112, 192, 0.15);
+}
+
+.menu_contacter_n:hover{
+	border-top: 5px solid #00FBFF;
+	background-color: rgba(220,112, 192, 0.15);
+}
+
+.menu_creer_compte:hover{
+	border-top: 5px solid #00FBFF;
+	background-color: rgba(220,112, 192, 0.15);
+}
+
+.menu_poser_q:hover{
+	border-top: 5px solid #00FBFF;
+	background-color: rgba(220,112, 192, 0.15);
+}
+
+.menu_apropos:hover{
+	border-top: 5px solid #00FBFF;
+	background-color: rgba(220,112, 192, 0.15);
+}
+
+.milieu{
+	background-image: url("images_s_v/th_(9).jpg");
+}
+
+/*page planifier commande*/
+
+.indication_formulaire{
+	display: table;
+	margin: 0 auto;
+}
+
+.table_pc{
+	padding: 0px;
+	width: 70%;
+}
+
+.valider_c{
+	position: relative;
+	left: 10%;
+}
+
+.logo_page_planifier{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: relative;
+	left: 12%;
+	height: 100px;
+	width: 100px;
+}
+.type_achat{
+	margin-bottom: 0px;
+}
+fieldset{
+	border: 3px solid #7829BB;
+	padding: 0px;
+	width: 100%;
+}
+
+legend{
+	color: red;
+}
+
+.indication_formulaire{
+	font-size: 150%;
+	color: white;
+	margin-top: 5%;
+	border-radius: 30px;
+	background-color: #7829BB;
+}
+
+/*page contacter nous direct*/
+.numero_t{
+	display: table;
+	margin: 0 auto; 
+}
+.numero1{
+	color: white;
+	background-color: #7829BB;
+	border-radius: 5px;
+}
+
+.numero2{
+	color: white;
+	background-color: #7829BB;
+	border-radius: 5px;
+}
+
+.numero3{
+	color: white;
+	background-color: #7829BB;
+	border-radius: 5px;
+}
+
+.contacter_par_email{
+	color: white;
+	background-color: #7829BB;
+	border-radius: 5px;
+}
+
+/*page poser question*/
+
+textarea{
+	width: 200px;
+	height:100px;
+}
+/*page traitement html*/
+.div_traitement{
+	background-color: #7829BB;
+}
+.lien_r{
+	color:red;
+	background-color: white;
+}
+.desole_form{
+	color:white;
+	font-size: 120%;
+}
+.contacter_par_email_desole{
+	background-color: white;
+	color:red;
+	margin:0 auto;
+	display: table;
+}
+
+/*page à propos*/
+.div_apropos{
+	border: 4px solid #7929BB;
+}
+.c_cords{
+	color: blue;
+}
+/*page créer un compte client*/
+.mess_creer_compte{
+	font-size: 130%;
+	color: red;
+}
+@media screen and (min-width: 780px){
+	.planifier_commande3, .table_mobile{
+		display: none;
+	}
+	.contacter_nous_direct_mobile{
+	display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	webkit-animation-name:diapot;
+	webkit-animation-duration: 9s;
+	webkit-animation-timing-function: linear;
+	webkit-animation-iteration-count: infinite;
+	webkit-animation-direction: normal;
+
+	moz-animation-name:diapot;
+	moz-animation-duration: 9s;
+	moz-animation-timing-function: linear;
+	moz-animation-iteration-count: infinite;
+	moz-animation-direction: normal;
+
+	animation-name:diapot;
+	animation-duration: 9s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+@-webkit-keyframes diapot{
+	0%{background-image: url("image_s_v/poulets-entasses-industrie-senegal.jpg");}
+	20%{background-image: url("image_s_v/poulets-entasses-industrie-senegal.jpg");}
+	33%{background-image: url("image_s_v/images_1.jpeg.jpg");}
+	53%{background-image: url("image_s_v/images_1.jpeg.jpg");}
+	66%{background-image: url("image_s_v/images_4.jpeg.jpg");}
+	86%{background-image: url("image_s_v/images_4.jpeg.jpg");}
+	99%{background-image: url("image_s_v/poulet-dsf-1.jpg");}
+	119%{background-image: url("image_s_v/poulet-dsf-1.jpg");}
+	132%{background-image: url("image_s_v/Poulet-de-chair-vivant-de-2.5kg2.png");}
+	152%{background-image: url("image_s_v/Poulet-de-chair-vivant-de-2.5kg2.png");}
+	165%{background-image: url("image_s_v/images_3.jpeg.jpg");}
+	185%{background-image: url("image_s_v/images_3.jpeg.jpg");}
+}
+
+@-moz-keyframes diapot{
+	0%{background-image: url("image_s_v/poulets-entasses-industrie-senegal.jpg");}
+	20%{background-image: url("image_s_v/poulets-entasses-industrie-senegal.jpg");}
+	33%{background-image: url("image_s_v/images_1.jpeg.jpg");}
+	53%{background-image: url("image_s_v/images_1.jpeg.jpg");}
+	66%{background-image: url("image_s_v/images_4.jpeg.jpg");}
+	86%{background-image: url("image_s_v/images_4.jpeg.jpg");}
+	99%{background-image: url("image_s_v/poulet-dsf-1.jpg");}
+	119%{background-image: url("image_s_v/poulet-dsf-1.jpg");}
+	132%{background-image: url("image_s_v/Poulet-de-chair-vivant-de-2.5kg2.png");}
+	152%{background-image: url("image_s_v/Poulet-de-chair-vivant-de-2.5kg2.png");}
+	165%{background-image: url("image_s_v/images_3.jpeg.jpg");}
+	185%{background-image: url("image_s_v/images_3.jpeg.jpg");}}
+
+@keyframes diapot{
+	0%{background-image: url("image_s_v/poulets-entasses-industrie-senegal.jpg");}
+	20%{background-image: url("image_s_v/poulets-entasses-industrie-senegal.jpg");}
+	33%{background-image: url("image_s_v/images_1.jpeg.jpg");}
+	53%{background-image: url("image_s_v/images_1.jpeg.jpg");}
+	66%{background-image: url("image_s_v/images_4.jpeg.jpg");}
+	86%{background-image: url("image_s_v/images_4.jpeg.jpg");}
+	99%{background-image: url("image_s_v/poulet-dsf-1.jpg");}
+	119%{background-image: url("image_s_v/poulet-dsf-1.jpg");}
+	132%{background-image: url("image_s_v/Poulet-de-chair-vivant-de-2.5kg2.png");}
+	152%{background-image: url("image_s_v/Poulet-de-chair-vivant-de-2.5kg2.png");}
+	165%{background-image: url("image_s_v/images_3.jpeg.jpg");}
+	185%{background-image: url("image_s_v/images_3.jpeg.jpg");}}
+}*/
+
+	/*webkit-animation-name:diapot;
+	webkit-animation-duration: 12s;
+	webkit-animation-timing-function: linear;
+	webkit-animation-iteration-count: infinite;
+	webkit-animation-direction: normal;
+
+	moz-animation-name:diapot;
+	moz-animation-duration: 12s;
+	moz-animation-timing-function: linear;
+	moz-animation-iteration-count: infinite;
+	moz-animation-direction: normal;
+
+	animation-name:diapot;
+	animation-duration: 12s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+@-webkit-keyframes diapot{
+	0%{background-position: 0px 0px;}
+	31%{background-position: -960px 0px;}
+	64%{background-position: -1920px 0px;}
+	100%{background-position: -2880px 0px;}
+}
+
+@-moz-keyframes diapot{
+	0%{background-position: 0px 0px;}
+	31%{background-position: -960px 0px;}
+	64%{background-position: -1920px 0px;}
+	100%{background-position: -2880px 0px;}
+}
+
+@keyframes diapot{
+	0%{background-position: 0px 0px;}
+	31%{background-position: -960px 0px;}
+	64%{background-position: -1920px 0px;}
+	100%{background-position: -2880px 0px;}
+}*/

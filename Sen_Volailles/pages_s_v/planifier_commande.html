@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Planifier commande</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=width-divice, initial-scale=1.0">
+	<link rel="stylesheet" href="../sen_volailles.css">
+	<link rel="stylesheet" href="sen_volailles_mobile.css">
+</head>
+<body>
+
+		<nav class="mon menu">
+		<div class="div_menu">
+		<ul>
+			<h1 class="sen_volailles">SEN VOLAILLES</h1>
+			<li class="separateur">BIEVENUE CHEZ SEN VOLAILLES MERCI!MR6</li>
+			<li class="accueille"><a href="../index.html">Accueille</a></li>
+			<li class="menu_planifier"> <a href="planifier_commande.html">Planifier une commande</a></li>
+			<li class="menu_contacter_n"> <a href="contacter_nous_direct.html">Contacter nous direct</a></li>
+			<li class="menu_creer_compte"> <a href="construction.html">Créer un compte client</a></li>
+			<li class="menu_poser_q"> <a href="poser_q.html">Poser des questions</a> </li>
+			<li class="menu_apropos"> <a href="apropos.html">A propos</a></li>
+		</ul>
+		</div>
+	</nav>
+
+	<form method="post" action="traitement.html">
+		<p>
+			<div class="table_pc">
+				<fieldset>
+					<legend>Faites attention à ce que vous écrivez</legend>
+			<label for="prenom_et_nom"> Prénom et nom</label>
+			<input type="text" name="prenom_et_nom" id="prenom_et_nom" placeholder="Exemple Ablaye Gaye" maxlength="20" required=>
+			<br><br>
+			<label for="téléphone">Numéro de téléphon</label>
+			<input type="tel" name="telephone" id="telephone" placeholder="+221" maxlength="9" minlength="9" required>
+			<br><br>
+			<label for="nombre_de_poulet">Nombre de poulet</label>
+			<input type="number" name="nombre_de_poulet" id="nombre_de_poulet" required>
+			<br><br>
+			Choisissez une région
+			<select name="region" id="region">
+				<option value="Région ?">Région ?</option>
+				<option value="Diourbel">Diourbel</option>
+				<option value="Dakar">Dakar</option>
+				<option value="Fatick">Fatick</option>
+				<option value="Kaffrine">Kaffrine</option>
+				<option value="Kaolack">Kaolack</option>
+				<option value="Kédougou">Kédougou</option>
+				<option value="Kolda">Kolda</option>
+				<option value="Louga">Louga</option>
+				<option value="Matam">Matam</option>
+				<option value="Sains-Louis">Sains-Louis</option>
+				<option value="Sédhiou">Sédhiou</option>
+				<option value="Tambacounda">Tambacounda</option>
+				<option value="Thiés">Thés</option>
+				<option value="Ziguinchor">Ziguinchor</option>
+			</select>
+			<br><br>
+			<label for="v_ou_v"> Le nom de votre ville ou vollage</label>
+			<input type="text" name="v_ou_v" id="v_ou_v" placeholder="Lieu de livraison" required><br>
+			<h3>Type d'achat ?</h3>
+			<span>Si vous choisissez d'acheter par kilo g veillez selectioner le poid que vous voulez à droite de la case a cocher</span>
+			<br>
+			<input type="radio" name="type_achat" value="par_poulet" id="par_poulet" checked>
+			<label for="par_poulet">Par poulet</label>
+			<br>
+			<input type="radio" name="type_achat" value="par_kilo_g" id="par_kilo_g">
+			<label for="par_kilo_g">Par kilo g</label>
+				<select name="region" id="region">
+					<option value="Quel poid">Quel poid?</option>
+					<option value="1.5 kilo g">1.5 kilo g</option>
+					<option value="2 kilo g">2 kilo g</option>
+				</select><br>
+			<img src="logo_s_v.png" width="20%" height="20%" class="logo_page_planifier">
+			<div>
+			<div class="valider_c">
+			<input type="submit" value="Valider mon commande" id="bouton_valider">
+			</div>
+			<br>
+			Avant de valider vérifier tout les informations pour q'on puise vous repérer facilement
+			</fieldset>
+			<p class="indication_formulaire">Indication de cette formulaire</p>
+			</div>
+		</p>
+	</form>
+
+	<!-- formulaires mobile-->
+		<form method="post" action="sen_volailles_pc.php">
+		<p>
+			<div class="table_mobile">
+				<fieldset class="fieldset_mobile">
+					<legend>Faites attention à ce que vous écrivez</legend>
+			<label for="prenom_et_nom"> Prénom et nom</label>
+			<input type="text" name="prenom_et_nom" id="prenom_et_nom" placeholder="Exemple Ablaye Gaye" maxlength="20" required>
+			<span id="Prenom_manquant"></span>
+			<br><br>
+			<label for="téléphone">Numéro de téléphon</label>
+			<input type="tel" name="téléphone" id="téléphone" placeholder="+221" required maxlength="9" minlength="9">
+			<br><br>
+			<label for="nombre_de_poulet">Nombre de poulet</label>
+			<input type="number" name="nombre_de_poulet" id="nombre_de_poulet" required>
+			<br><br>
+			Choisissez une région
+			<select name="region" id="region">
+				<option value="Région ?">Région ?</option>
+				<option value="Diourbel">Diourbel</option>
+				<option value="Dakar">Dakar</option>
+				<option value="Fatick">Fatick</option>
+				<option value="Kaffrine">Kaffrine</option>
+				<option value="Kaolack">Kaolack</option>
+				<option value="Kédougou">Kédougou</option>
+				<option value="Kolda">Kolda</option>
+				<option value="Louga">Louga</option>
+				<option value="Matam">Matam</option>
+				<option value="Sains-Louis">Sains-Louis</option>
+				<option value="Sédhiou">Sédhiou</option>
+				<option value="Tambacounda">Tambacounda</option>
+				<option value="Thiés">Thés</option>
+				<option value="Ziguinchor">Ziguinchor</option>
+			</select>
+			<br><br>
+			<label for="v_ou_v"> Le nom de votre ville ou vollage</label>
+			<input type="text" name="v_ou_v" id="v_ou_v" placeholder="Lieu de livraison" required><br>
+			<h3>Type d'achat ?</h3>
+			<span>Si vous choisissez d'acheter par kilo g veillez selectioner le poid que vous voulez à droite de la case a cocher</span>
+			<br>
+			<input type="radio" name="type_achat" value="par_poulet" id="par_poulet">
+			<label for="par_poulet">Par poulet</label>
+			<br>
+			<input type="radio" name="type_achat" value="par_kilo_g" id="par_kilo_g">
+			<label for="par_kilo_g">Par kilo g</label>
+				<select name="region" id="region">
+					<option value="Quel poid">Quel poid?</option>
+					<option value="1.5 kilo g">1.5 kilo g</option>
+					<option value="2 kilo g">2 kilo g</option>
+				</select><br>
+			<img src="logo_s_v.png" width="20%" height="20%" class="logo_page_planifier">
+			<div>
+			<div class="type_achat_mobile">
+			<input type="submit" value="Valider mon commande" id="bouton_valider">
+			</div>
+			<br>
+			Avant de valider vérifier tout les informations pour q'on puise vous repérer facilement
+			</fieldset>
+			<p class="indication_formulaire">Indication de cette formulaire</p>
+			<span id="Prenom_manquant"></span>
+			</div>
+		</p>
+	</form>
+	<p>
+</body>
+</html>
